@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="icon" href="signup.webp">
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background-color:#d09d69db ;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            height:80vh;
+        }
+        .signuppage{
+            background-color:#EADFD7;
+            padding:50px;
+            border-radius: 12px;
+            width:350px;
+            box-shadow:0 8px 20px rgba(0, 0, 0, 0.8);
+            text-align: center;
+        }
+        H2{
+            color:black;
+            margin-top:30px;
+        }
+        .input{
+            position:relative;
+            margin-bottom:25px;
+        }
+        .input input{
+            width:100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            font-size: 14px;
+            background: transparent;
+        }
+
+        .input label {
+            position: absolute;
+            left: 12px;
+            top: 12px;
+            color: #7A6C5D;
+            font-size: 14px;
+            transition: 0.3s ease;
+            pointer-events: none;
+            background-color:#EADFD7;
+            padding: 0 4px;
+        }
+
+        .input input:focus + label,
+        .input input:valid + label {
+            top: -8px;
+            left: 10px;
+            font-size: 12px;
+            color: #B76E79;
+        }
+
+        .input input:focus {
+            border-color: #B76E79;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background-color: #B76E79;
+            color:#EADFD7;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #8C5E58;
+        }
+
+        .login-link {
+            margin-top: 15px;
+            display: block;
+            font-size: 14px;
+            color: #5C3D2E;
+            text-decoration: none;
+        }
+
+        .login-link:hover {
+            text-decoration: underline;
+            color:#b66f23;
+        }
+        .home-link{
+            display:block;
+            margin-top:15px;
+            font-size:14px;
+            color:#5C3D2E;
+            text-decoration: none;
+        }
+        .home-link:hover{
+            color:#b66f23;
+            text-decoration:underline;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="signuppage">
+        <h2>signup to perfumy</h2>
+        <form>
+            <div class="input">
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="input">
+                <input type="password" required>
+                <label>confirm password</label>
+            </div>
+            </form>
+            <button type="submit">signup</button>
+            <a href="login.html" class="login-link">already have an acount?Login</a>
+            <a href="index.html" class="home-link">return to the home page</a>
+    </div>
+</body>
+</html>
