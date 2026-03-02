@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOPFY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="sy.png">
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+
+    }
+    body{
+        background-color: rgb(128, 238, 202);
+    }
+    nav{
+        font-family: "Gravitas One", serif;
+        font-weight: 400;
+        font-style: normal;
+        background-color: rgb(66, 50, 50);
+        display:inline-block;
+        color:aliceblue;
+        padding-right:500px;
+        width:100%;
+
+    }
+    NAV H1:hover{
+        color:rgb(128, 238, 202);
+        cursor:pointer;
+
+    }
+    ul,li,h1{
+        display:inline-block;
+    }
+    li:hover{
+        color:rgb(128, 238, 202);
+        font-family: "Gravitas One", serif;
+        cursor:pointer;
+
+    }
+    ul{
+        width:100%;
+        text-align: right;
+    }
+    .sale{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        background-color: rgb(66, 50, 50);
+        overflow:hidden;
+        white-space: nowrap;
+        margin:1px;
+        padding:5px;
+        border-radius: 10px;
+        color:rgb(117, 178, 233);
+        font-family: "Gravitas One", serif;
+
+    }
+    .sale p{
+        animation: scroll 10s linear infinite;
+    }
+
+    @keyframes scroll {
+        0% { transform: translateX(100%); }
+        100% { transform: translateX(-100%); }
+    }
+
+    input{
+        width:60%;
+        padding:10px;
+        border-radius: 20px;
+    }
+    .searchbar{
+
+        text-align:center;
+        padding:50px;
+        border-radius:20px;
+        shape-margin:0cm;
+
+    }
+    .search{
+        padding:10px;
+        border-radius: 20px;
+
+    }
+    .box{
+        border-width: 2px;
+        border-color:black;
+        border-style:solid;
+        width:500px;
+        padding:10px;
+        display:inline-block;
+    }
+    .box:hover{
+        background-color: black;
+        color:rgb(128, 238, 202);
+    }
+    .products{
+        text-align: center;
+    }
+    .lastpage{
+        text-align: center;
+    }
+    a{
+        font-family: "Gravitas One", serif;
+        font-size: larger;
+        color:white;
+        text-decoration:none;
+
+    }
+    a:hover{
+        color:rgb(128, 238, 202);
+        cursor:pointer;
+    }
+</style>
+<body>
+    <div>
+    <nav>
+        <h1>WELCOME TO SHOPFY!!!!</h1>
+        <ul>
+            <li>home|</li>
+            <li>products|</li>
+            <li>applications|</li>
+        </ul>
+    </nav>
+
+    </div>
+    <div class="searchbar">
+        <input type="text" placeholder="search here">
+        <button class="search">search</button>
+
+    </div>
+    <div class="sale">
+        <p>🔥SHOP HERE MEGA MEGA SALE 
+            EVERYTHING UNDER 999!!!!🔥  
+        </p>
+        
+    </div>
+    <div class="products">
+    <div class="box">
+        <img src="confident-smiling-sixteen-year-old-600nw-2613832701.jpg" alt="dress pic">
+        <h1>🔥PRICE:999/- ONLY🔥</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas earum quod porro quibusdam magni consequuntur repellendus sequi reprehenderit dolor accusantium amet, aperiam eius, fuga dicta aliquam! Tenetur quasi odio iure vero doloribus officiis fugit dolore, ipsa accusamus nesciunt. Voluptatum quidem explicabo alias aspernatur eveniet. Quo, necessitatibus corporis a fugit ullam eveniet tenetur, dignissimos consectetur veniam quod possimus sunt neque facere explicabo cum pariatur cupiditate aspernatur accusantium dolores minima! Harum, saepe.</p>
+
+    </div>
+    <div class="box">
+        <img src="Wholesale-Non-Slip-Children-Designer-Kids-Sport-Shoes-Sneakers-for-Boys-and-Girls-Casual-Sneakers-for-Students.jpg_300x300.avif" alt="shoe pic">
+        <H1>🔥PRICE:599/- ONLY🔥</H1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit in totam dolorum quo corrupti molestiae esse labore ex repudiandae, doloremque facere nisi at animi officia, unde perspiciatis aliquid? Saepe totam nesciunt sit pariatur sapiente assumenda earum nam alias maiores placeat non magnam deserunt itaque consectetur accusantium, odit modi ex omnis officia. Ullam, voluptates nulla? Odit harum pariatur asperiores, obcaecati aut molestias voluptate, delectus in voluptates vero rerum impedit distinctio natus.</p>
+
+    </div>
+    <div class="box">
+        <img src="s.jpg" alt="sports kit pic"> 
+        <H1>🔥PRICE:799/- ONLY🔥</H1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora suscipit amet iusto praesentium, modi blanditiis alias. Sequi voluptates blanditiis dignissimos est, sed rerum quod ex nam corporis labore doloribus tenetur adipisci delectus dolore cumque fugit fugiat illum, laudantium eius et repellat aut omnis. Exercitationem sapiente fuga praesentium, nemo officiis obcaecati iure doloremque. Rem assumenda recusandae, cum illum ratione quod labore dolores facere quis quisquam rerum, tenetur at quos obcaecati iste!</p>
+    </div>
+    <div class="box">
+        <img src="ps5.webp" alt="ps5 pic"> 
+        <H1>🔥PRICE:499/- ONLY🔥</H1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora suscipit amet iusto praesentium, modi blanditiis alias. Sequi voluptates blanditiis dignissimos est, sed rerum quod ex nam corporis labore doloribus tenetur adipisci delectus dolore cumque fugit fugiat illum, laudantium eius et repellat aut omnis. Exercitationem sapiente fuga praesentium, nemo officiis obcaecati iure doloremque. Rem assumenda recusandae, cum illum ratione quod labore dolores facere quis quisquam rerum, tenetur at quos obcaecati iste!</p>
+    </div>
+    <div class="box">
+        <img src="rolex.avif" alt="watches pic"> 
+        <H1>🔥PRICE:899/- ONLY🔥</H1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora suscipit amet iusto praesentium, modi blanditiis alias. Sequi voluptates blanditiis dignissimos est, sed rerum quod ex nam corporis labore doloribus tenetur adipisci delectus dolore cumque fugit fugiat illum, laudantium eius et repellat aut omnis. Exercitationem sapiente fuga praesentium, nemo officiis obcaecati iure doloremque. Rem assumenda recusandae, cum illum ratione quod labore dolores facere quis quisquam rerum, tenetur at quos obcaecati iste!</p>
+    </div>
+    <div class="box">
+        <img src="bag.webp" alt="bags pics"> 
+        <H1>🔥PRICE:699/- ONLY🔥</H1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora suscipit amet iusto praesentium, modi blanditiis alias. Sequi voluptates blanditiis dignissimos est, sed rerum quod ex nam corporis labore doloribus tenetur adipisci delectus dolore cumque fugit fugiat illum, laudantium eius et repellat aut omnis. Exercitationem sapiente fuga praesentium, nemo officiis obcaecati iure doloremque. Rem assumenda recusandae, cum illum ratione quod labore dolores facere quis quisquam rerum, tenetur at quos obcaecati iste!</p>
+    </div>
+    <div class="box">
+        <img src="airpods.webp" alt="airpods pic"> 
+        <H1>🔥PRICE:599/- ONLY🔥</H1>
+        <p>Lorem, ipsum dolor serum quodcitationem sapientRem assumenres facere quis quisquam rerum, tenetur at quos obcaecati iste!</p>
+    </div>
+    <div class="box">
+        <img src="images (1).jpg" alt="cat"> 
+        <H1>🔥PRICE:199/- ONLY🔥</H1>
+        <p>Lorem, ipsum dolor serum quodcitationem sapientRem assumenres facere quis quisquam rerum, tenetur at quos obcaecati iste!</p>
+    </div>
+    <div class="box">
+        <img src="images.jpg" alt="dog pic"> 
+        <H1>🔥PRICE:299/- ONLY🔥</H1>
+        <p>Lorem, ipsum dolor serum quodcitationem sapientRem assumenres facere quis quisquam rerum, tenetur at quos obcaecati iste!</p>
+    </div>
+    <div class="box">
+        <img src="fruits.png" alt="fruits pics"> 
+        <H1>🔥PRICE:69/- ONLY🔥</H1>
+        <p>Lorem, ipsum dolor serum quodcitationem sapientRem assumenres facere quis quisquam rerum, tenetur at quos obcaecati iste!</p>
+    </div>
+    <div class="box">
+        <img src="vegetables.jpg" alt="vegetables pics"> 
+        <H1>🔥PRICE:99/- ONLY🔥</H1>
+        <p>Lorem, ipsum dolor serum quodcitationem sapientRem assumenres facere quis quisquam rerum, tenetur at quos obcaecati iste!</p>
+    </div>
+
+    
+    </div>
+
+    <nav class="lastpage">
+        <a href="signup.html">SIGNUP</a><BR>
+        <h2>(R)</h2>
+        <a href="login.html">LOGIN</a>
+    </nav>
+
+    
+
+    </div>
+
+
+    
+</body>
+</html>
